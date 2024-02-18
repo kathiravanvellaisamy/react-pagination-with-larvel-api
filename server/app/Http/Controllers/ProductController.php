@@ -16,8 +16,9 @@ class ProductController extends Controller
     public function index()
     {
 
+        $products = Product::all();
         return response()->json([
-            'results' => "all the records"
+            'results' => $products
         ],200);
     }
 
