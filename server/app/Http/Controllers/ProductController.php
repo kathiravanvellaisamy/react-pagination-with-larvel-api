@@ -12,7 +12,10 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+
+        return response()->json([
+            'results' => "all the records"
+        ],200);
     }
 
     /**
