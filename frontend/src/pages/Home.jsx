@@ -47,7 +47,7 @@ const Home = () => {
             <li>
               <a
                 onClick={handlePreviousPage}
-                className="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-red-600 hover:text-gray-100 "
+                className="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-red-600 hover:text-gray-100 cursor-pointer"
               >
                 Previous
               </a>
@@ -58,7 +58,7 @@ const Home = () => {
             <li>
               <a
                 onClick={handleNextPage}
-                className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 hover:text-gray-100 "
+                className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 hover:text-gray-100 cursor-pointer "
               >
                 Next
               </a>
